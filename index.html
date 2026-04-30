@@ -1,177 +1,170 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WB2 REDRUM | RED SOCIAL x FORO Web 2.0</title>
-    <!-- Lucide Icons -->
-    <script src="https://unpkg.com/lucide@latest"></script>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WB2 REDRUM | RED SOCIAL x FORO Web 2.0</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
 
-    <!-- 1) HEADER -->
-    <header>
-        <a href="#" class="logo">
-            <img src="untitled.png" style="width: auto; height: auto;">
-            REDRUM
-        </a>
+        <header>
+            <a href="#" class="logo">
+                <img src="images/logo.png" style="width: auto; height: auto;">
+                REDRUM
+            </a>
 
-        <div class="nav-actions">
-            <nav style="display: flex; gap: 15px; color: white; font-weight: bold; font-size: 0.8rem;">
-                <a href="#" style="text-decoration: none; color: white"><span style="cursor:pointer">Inicion</span></a>
-            </nav>
-            
-            <div class="dropdown">
-                <button class="dropbtn">
-                    ⁝MENÚ
-                </button>
-                <div class="dropdown-content">
-                    <a href="#banner">Banner</a>
-                    <a href="#info">Informacion</a>
-                    <a href="#contactos">Contactos</a>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <!-- 2) HERO -->
-    <section id="banner" class="hero">
-        <div class="hero-content">
-            <h1><span>Volviendo</span> a la vieja escuela</h1>
-            <p>
-                Un híbrido entre red social y foro clásico. Olvida los algoritmos, recupera la conversación y disfruta de un espacio diseñado para la comunidad.
-            </p>
-            <button id="BotonUnirse">
-                UNIRSE
-            </button>
-        </div>
-
-        <div class="polaroid-wrapper">
-            <div class="polaroid-card">
-                <div class="photo-space">
-                    <div class="rainbow-strip">
-                        <div style="background: var(--polaroid-azul)"></div>
-                        <div style="background: var(--polaroid-verde)"></div>
-                        <div style="background: var(--polaroid-amarillo)"></div>
-                        <div style="background: var(--polaroid-naranja)"></div>
-                        <div style="background: var(--polaroid-rojo)"></div>
-                    </div>
-                    <img src="happy_user.png" style="width: 80%; height: 80%;">
-                </div>
-                <p class="polaroid-label">HAPPY_USER.PNG</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- 3) BODY -->
-    <main>
-        <section id="info" class="info-section">
-            <div class="section-grid" style="margin-bottom: 5%;">
-                <div class="polaroid-wrapper">
-                    <div class="polaroid-card">
-                        <div class="photo-space">
-                            <div class="rainbow-strip">
-                                <div style="background: var(--polaroid-azul)"></div>
-                                <div style="background: var(--polaroid-verde)"></div>
-                                <div style="background: var(--polaroid-amarillo)"></div>
-                                <div style="background: var(--polaroid-naranja)"></div>
-                                <div style="background: var(--polaroid-rojo)"></div>
-                            </div>
-                            <img src="web 2.png" style="width: 80%; height: 80%;">
-                        </div>
-                        <p class="polaroid-label">WEB 2.0</p>
-                    </div>
-                </div>
-                <!-- Sección Informativa 1 -->
-                <div class="info-card">
-                    <i data-lucide="layout-template" color="var(--naranja-brave)" style="margin-bottom: 10px;"></i>
-                    <h3>Web 2.0</h3>
-                    <p>La Web 2.0 fue el momento donde sento muchas de la bases del internet moderno como las redes sociales, la creacion de contenido, la sociabilizacion y comunicacion entre amigos y la lista sigue pero con el tiempo esto se empezo de cierta manera a corromper con el abuso de algoritmos que premian al usuario que sigue al cardumen matando la creatividad, el abuso de contenido publicitario y servicios que en un inicio funcionan pero luego
-                        abusa de sus usuarios y aumenta los precios, en general el lado mas corporativo esta matando lo que en un inicio se nos dio en la Web 2.0, REDRUM busca ser mas parecido a los sitios de esas epocas pero con cualidades de vida modernas y 0% algoritmos u anuncios abusivos teniendo mas encuenta el lado de las comunidades y la buena comvivencia entre los usuarios.</p>
-                </div>
-            </div>
-
-            <div class="section-grid" style="margin-bottom: 5%;">
-                <div class="polaroid-wrapper">
-                    <div class="polaroid-card">
-                        <div class="photo-space">
-                            <div class="rainbow-strip">
-                                <div style="background: var(--polaroid-azul)"></div>
-                                <div style="background: var(--polaroid-verde)"></div>
-                                <div style="background: var(--polaroid-amarillo)"></div>
-                                <div style="background: var(--polaroid-naranja)"></div>
-                                <div style="background: var(--polaroid-rojo)"></div>
-                            </div>
-                        <img src="candado.png" style="width: 80%; height: 80%;">
-                    </div>
-                        <p class="polaroid-label">SEGURIDAD</p>
-                    </div>
-                </div>
+            <div class="nav-actions">
+                <nav style="display: flex; gap: 15px; color: white; font-weight: bold; font-size: 0.8rem;">
+                    <a href="#" style="text-decoration: none; color: white"><span style="cursor:pointer">Inicion</span></a>
+                </nav>
                 
-                <!-- Sección Informativa 2 -->
-                <div class="info-card" style="border-top-color: var(--polaroid-azul);">
-                    <i data-lucide="shield-check" color="var(--polaroid-azul)" style="margin-bottom: 10px;"></i>
-                    <h3>Privacidad y Seguridad</h3>
-                    <p>En la actualidad ya no es un secreto de que muchas empresas tienden a recopilar datos con la intencion de venderlos a otras empresas para poder crear anuncios personalizados o estudiar al mercado, en general estas practicas entan en un area muy gris ya que por un lado recopilar estos datos puede ser buerno para la seguridad
-                        de los usuarios como tambien que este en mayor peligro ya que siempre habra gente maliciosa que encontrara vulnerabilidades y no dudara en filtrarla, por eso en REDRUM debemos ser cuidadosos con la informacion de los usuarios pero a su vez darles ciertas libertades que en otra red social no les dejaria obviamente bajo una
-                        moderacion para evitar incidentes, conflictos que puedan llegar a combertirce en tragedias o planeacion de ataque terroristas u atentados hacia una o varias personas.</p>
-                </div>
-            </div>
-
-            <div class="section-grid">
-                <div class="polaroid-wrapper">
-                    <div class="polaroid-card">
-                        <div class="photo-space">
-                            <div class="rainbow-strip">
-                                <div style="background: var(--polaroid-azul)"></div>
-                                <div style="background: var(--polaroid-verde)"></div>
-                                <div style="background: var(--polaroid-amarillo)"></div>
-                                <div style="background: var(--polaroid-naranja)"></div>
-                                <div style="background: var(--polaroid-rojo)"></div>
-                            </div>
-                            <img src="logo grande.png" style="width: 80%; height: 80%;">
-                        </div>
-                        <p class="polaroid-label">RED/FORO</p>
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <img src="images/menu.png" style="width: auto; height: auto;">
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#banner">Banner</a>
+                        <a href="#info">Informacion</a>
+                        <a href="#contactos">Contactos</a>
                     </div>
                 </div>
-                <!-- Sección Informativa 3 (Híbrido) -->
-                <div class="info-card" style="border-top-color: var(--polaroid-verde);">
-                    <i data-lucide="cpu" color="var(--polaroid-verde)" style="margin-bottom: 10px;"></i>
-                    <h3>Tengamos un Equilibrio</h3>
-                    <p>si bien la Web 3.0 es abrumadora y abusiva no significa que no tenga sus virtudes, en REDRUM procuramos usar estas tegnologias de forma que no sea abusiva y que no perjudique al usuario ademas de introducir un formato hibrido entre foro y red social.</p>
+            </div>
+        </header>
+
+        <section id="banner" class="hero">
+            <div class="hero-content">
+                <h1><span>Volviendo</span> a la vieja escuela</h1>
+                <p>
+                    Recuperemos la libertad de la WEB 2.0 sin dejar de lado los beneficios de la WEB 3.0, 👥junto crearemos una comunidad de internautas.
+                </p>
+                <button id="BotonUnirse">
+                    UNIRSE
+                </button>
+            </div>
+
+            <div class="polaroid-wrapper">
+                <div class="polaroid-card">
+                    <div class="photo-space">
+                        <div class="rainbow-strip">
+                            <div style="background: var(--polaroid-azul)"></div>
+                            <div style="background: var(--polaroid-verde)"></div>
+                            <div style="background: var(--polaroid-amarillo)"></div>
+                            <div style="background: var(--polaroid-naranja)"></div>
+                            <div style="background: var(--polaroid-rojo)"></div>
+                        </div>
+                        <img src="images/happy_user.png" style="width: 80%; height: 80%;">
+                    </div>
+                    <p class="polaroid-label">images/HAPPY_USER.PNG</p>
                 </div>
             </div>
         </section>
 
-        <section class="banner-cafe">
-            <h2 style="color: var(--polaroid-amarillo);">¿Estas harto de ser <span>consumido</span> por las empresas?</h2>
-            <p style="max-width: 700px; margin: 20px auto 0; opacity: 0.9; line-height: 1.8;">
-                REDRUM busca ser un espacio seguro, honesto y abierto para aquellos que crecimos con el internet clasico, alejandonos de la sobre explotacion de anuncios, uso de la IA de manera abusiva para la creacion de contenido basura y estafas basadas en mercados especulativos, a su vez mostrarles de las maravillas del internet antiguo a las nuevas generaciones.
-            </p>
-        </section>
-    </main>
+        <main>
+            <section id="info" class="info-section">
+                <div class="section-grid" style="margin-bottom: 5%;">
+                    <div class="polaroid-wrapper">
+                        <div class="polaroid-card">
+                            <div class="photo-space">
+                                <div class="rainbow-strip">
+                                    <div style="background: var(--polaroid-azul)"></div>
+                                    <div style="background: var(--polaroid-verde)"></div>
+                                    <div style="background: var(--polaroid-amarillo)"></div>
+                                    <div style="background: var(--polaroid-naranja)"></div>
+                                    <div style="background: var(--polaroid-rojo)"></div>
+                                </div>
+                                <img src="images/web 2.png" style="width: 80%; height: 80%;">
+                            </div>
+                            <p class="polaroid-label">WEB 2.0</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <i data-lucide="layout-template" color="var(--naranja-brave)" style="margin-bottom: 10px;"></i>
+                        <h3>Web 2.0</h3>
+                        <p>La Web 2.0 fue el momento donde sento muchas de la bases del internet moderno como las redes sociales, la creacion de contenido, la sociabilizacion y comunicacion entre amigos y la lista sigue pero con el tiempo esto se empezo de cierta manera a corromper con el abuso de algoritmos que premian al usuario que sigue al cardumen matando la creatividad, el abuso de contenido publicitario y servicios que en un inicio funcionan pero luego
+                            abusa de sus usuarios y aumenta los precios, en general el lado mas corporativo esta matando lo que en un inicio se nos dio en la Web 2.0, REDRUM busca ser mas parecido a los sitios de esas epocas pero con cualidades de vida modernas y 0% algoritmos u anuncios abusivos teniendo mas encuenta el lado de las comunidades y la buena comvivencia entre los usuarios.</p>
+                    </div>
+                </div>
 
-    <!-- 4) FOOTER -->
-    <footer>
-        <div id="contactos" class="footer-grid">
-            <div class="footer-col">
-                <h4 style="color: var(--naranja-brave);">WB2 REDRUM</h4>
-                <p style="font-size: 0.9rem;">Volvamos a lo clasico sin dejar lo nuevo de lado.</p>
+                <div class="section-grid" style="margin-bottom: 5%;">
+                    <div class="polaroid-wrapper">
+                        <div class="polaroid-card">
+                            <div class="photo-space">
+                                <div class="rainbow-strip">
+                                    <div style="background: var(--polaroid-azul)"></div>
+                                    <div style="background: var(--polaroid-verde)"></div>
+                                    <div style="background: var(--polaroid-amarillo)"></div>
+                                    <div style="background: var(--polaroid-naranja)"></div>
+                                    <div style="background: var(--polaroid-rojo)"></div>
+                                </div>
+                            <img src="images/candado.png" style="width: 80%; height: 80%;">
+                        </div>
+                            <p class="polaroid-label">SEGURIDAD</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Sección Informativa 2 -->
+                    <div class="info-card" style="border-top-color: var(--polaroid-azul);">
+                        <i data-lucide="shield-check" color="var(--polaroid-azul)" style="margin-bottom: 10px;"></i>
+                        <h3>Privacidad y Seguridad</h3>
+                        <p>En la actualidad ya no es un secreto de que muchas empresas tienden a recopilar datos con la intencion de venderlos a otras empresas para poder crear anuncios personalizados o estudiar al mercado, en general estas practicas entan en un area muy gris ya que por un lado recopilar estos datos puede ser buerno para la seguridad
+                            de los usuarios como tambien que este en mayor peligro ya que siempre habra gente maliciosa que encontrara vulnerabilidades y no dudara en filtrarla, por eso en REDRUM debemos ser cuidadosos con la informacion de los usuarios pero a su vez darles ciertas libertades que en otra red social no les dejaria obviamente bajo una
+                            moderacion para evitar incidentes, conflictos que puedan llegar a combertirce en tragedias o planeacion de ataque terroristas u atentados hacia una o varias personas.</p>
+                    </div>
+                </div>
+
+                <div class="section-grid">
+                    <div class="polaroid-wrapper">
+                        <div class="polaroid-card">
+                            <div class="photo-space">
+                                <div class="rainbow-strip">
+                                    <div style="background: var(--polaroid-azul)"></div>
+                                    <div style="background: var(--polaroid-verde)"></div>
+                                    <div style="background: var(--polaroid-amarillo)"></div>
+                                    <div style="background: var(--polaroid-naranja)"></div>
+                                    <div style="background: var(--polaroid-rojo)"></div>
+                                </div>
+                                <img src="images/logo grande.png" style="width: 80%; height: 80%;">
+                            </div>
+                            <p class="polaroid-label">RED/FORO</p>
+                        </div>
+                    </div>
+                    <div class="info-card" style="border-top-color: var(--polaroid-verde); height: 60%;">
+                        <i data-lucide="cpu" color="var(--polaroid-verde)" style="margin-bottom: 10px;"></i>
+                        <h3>Tengamos un Equilibrio de paso veamos algo nuevo</h3>
+                        <p>si bien la Web 3.0 es abrumadora y abusiva no significa que no tenga sus virtudes, en REDRUM procuramos usar estas tegnologias de forma que no sea abusiva y que no perjudique al usuario ademas de introducir un formato hibrido entre foro y red social 
+                            teniendo una experiencia inusual pero novedosa explorando las publicaciones u perfiles de los usuarios que sean parte del ecosistema de  REDRUM.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="banner-cafe">
+                <h2 style="color: var(--polaroid-amarillo);">¿Estas harto de ser <span>consumido</span> por las empresas?</h2>
+                <p style="max-width: 700px; margin: 20px auto 0; opacity: 0.9; line-height: 1.8;">
+                    REDRUM busca ser un espacio seguro, honesto y abierto para aquellos que crecimos con el internet clasico, alejandonos de la sobre explotacion de anuncios, uso de la IA de manera abusiva para la creacion de contenido basura y estafas basadas en mercados especulativos, a su vez mostrarles de las maravillas del internet antiguo a las nuevas generaciones.
+                </p>
+            </section>
+        </main>
+
+        <footer>
+            <div id="contactos" class="footer-grid">
+                <div class="footer-col">
+                    <h4 style="color: var(--naranja-brave);">WB2 REDRUM</h4>
+                    <p style="font-size: 0.9rem;">Volvamos a lo clasico sin dejar lo nuevo de lado.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Contacto</h4>
+                    <a id="ContactLinks" href="#" style="margin-bottom: 10px;">soporte@redrumWB2.com</a>
+                    <a id="ContactLinks" href="#">Discord Oficial</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <p style="font-size: 0.8rem; color: #777;">Términos de Servicio y Privacidad.</p>
+                </div>
             </div>
-            <div class="footer-col">
-                <h4>Contacto</h4>
-                <a id="ContactLinks" href="#" style="margin-bottom: 10px;">soporte@redrumWB2.com</a>
-                <a id="ContactLinks" href="#">Discord Oficial</a>
+            <div id="CopyrightFooter">
+                &copy; 2026 WB2 REDRUM. para lo que buscamos algo mas clasico.
             </div>
-            <div class="footer-col">
-                <h4>Legal</h4>
-                <p style="font-size: 0.8rem; color: #777;">Términos de Servicio y Privacidad.</p>
-            </div>
-        </div>
-        <div id="CopyrightFooter">
-            &copy; 2026 WB2 REDRUM. para lo que buscamos algo mas clasico.
-        </div>
-    </footer>
-</body>
+        </footer>
+    </body>
 </html>
