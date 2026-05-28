@@ -287,6 +287,13 @@
             padding-top: 20px;
         }
 
+        .InputText {
+            width: 66%;
+            padding: 10px;
+            border: 1px solid var(--blanco-puro);
+            border-radius: 4px;
+            font-size: 1rem;
+        }
 
         @media (max-width: 768px) {
             .hero {
